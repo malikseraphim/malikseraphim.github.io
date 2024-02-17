@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+input {
+    height: 100%;
+    width: 90%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 5px 15px;
+
+    font-family: 'Sen', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+button {
+    height: 100%;
+    width: 50px;
+    background-color: #4B53F1;
+}
+
+button .material-symbols-outlined {
+    color: white;
+}

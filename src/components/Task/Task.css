@@ -1,0 +1,25 @@
+.task_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item_task {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+}
+.button_task {
+    cursor: pointer;
+    transition: transform .5s linear;
+}
+.button_task:hover {
+    transform: scale(0.9);
+}
+.material-symbols-outlined {
+    font-size: 50px;
+    color: #646BF3;
+}
+.title_task {
+
+}
